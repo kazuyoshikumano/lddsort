@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd):/usr/src/lddsort -w /usr/src/lddsort rust:latest cargo build --release
